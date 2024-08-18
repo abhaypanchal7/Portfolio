@@ -1,0 +1,47 @@
+body{
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: aliceblue;
+    color:darkslategray;
+    text-align: center;
+}
+header,footer{
+    line-height:2;
+    margin-top: 0px;
+    color:whitesmoke;
+    background-image: linear-gradient( 109.6deg,  rgb(116, 39, 39) 11.2%, rgb(164, 36, 190) 91.1% );
+}
+img{
+    border-radius: 48%;
+    box-shadow: 0 5px 10px rgb(165, 159, 174); 
+    object-fit: cover;
+}
+form{
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff
+}
+form input
+hr{
+    width: 60%;
+    margin: 20px;
+}
+h1,h2{
+    font-weight: 700;
+}
+p,a{
+    font-weight: 400;
+}
+::placeholder{
+    color: rgb(188, 188, 188);
+}
+form button{
+    color: beige;
+    border-radius: 20%;
+    background-color: rgb(104, 121, 206);
+    border-width: 3px;
+    box-shadow: 0 2px 5px rgb(63, 37, 37);
+    cursor: pointer;
+}
